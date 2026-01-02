@@ -15,19 +15,30 @@
 - Configured .gitignore and MIT LICENSE
 - Added py.typed marker for type checking support
 
+✅ **STEP 2: Model Classes Translation**
+- Translated City.kt → city.py with Enum implementation
+- Translated PrayerTimes.kt → prayer_times.py with dataclass
+- Added all 10 Iranian cities with coordinates and Persian names
+- Implemented format_all() and __str__() methods
+- Full type hints with mypy strict compatibility
+- Comprehensive docstrings for all classes and methods
+
 ### Current Step
 
-**STEP 2: Model Classes Translation** (In Progress)
+**STEP 3: Core Calculator Implementation** (Next)
 
-Translating Kotlin model classes to Python:
-- City enum with Iranian city data
-- PrayerTimes dataclass with all prayer times
-- Full type hints and comprehensive docstrings
+Translate PrayerTimeCalculator.kt to Python:
+- Astronomical algorithms (Julian day, solar position, hour angle)
+- Prayer time calculation methods
+- Configurable parameters (Fajr/Isha angles, Asr shadow factor)
+- Full type safety and documentation
 
 Plan:
-1. Translate City.kt → city.py (enum with 10 cities)
-2. Translate PrayerTimes.kt → prayer_times.py (dataclass)
-3. Add utility methods and string formatting
+1. Study PrayerTimeCalculator.kt implementation
+2. Translate astronomical helper methods
+3. Translate main calculation logic
+4. Add comprehensive docstrings
+5. Ensure mathematical accuracy
 
 ### Next Steps
 
