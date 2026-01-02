@@ -23,26 +23,36 @@
 - Full type hints with mypy strict compatibility
 - Comprehensive docstrings for all classes and methods
 
+✅ **STEP 3: Core Calculator Implementation**
+- Translated PrayerTimeCalculator.kt → prayer_time_calculator.py
+- Implemented complete astronomical algorithms:
+  - Julian day calculations
+  - Solar position (declination, equation of time)
+  - Hour angle calculations for all prayer times
+  - Asr calculation with shadow factor (Shafii/Hanafi)
+- Configurable parameters (Fajr/Isha angles, Maghrib offset)
+- Proper timezone handling with ZoneInfo
+- Full type hints and comprehensive docstrings (293 lines)
+
 ### Current Step
 
-**STEP 3: Core Calculator Implementation** (Next)
+**STEP 4: Main API Implementation** (Next)
 
-Translate PrayerTimeCalculator.kt to Python:
-- Astronomical algorithms (Julian day, solar position, hour angle)
-- Prayer time calculation methods
-- Configurable parameters (Fajr/Isha angles, Asr shadow factor)
-- Full type safety and documentation
+Translate IranPrayerTimes.kt to Python:
+- Main API class for user-facing interface
+- Factory methods for city-based calculations
+- Static method for custom coordinates
+- Convenience methods and clean API
 
 Plan:
-1. Study PrayerTimeCalculator.kt implementation
-2. Translate astronomical helper methods
-3. Translate main calculation logic
-4. Add comprehensive docstrings
-5. Ensure mathematical accuracy
+1. Study IranPrayerTimes.kt implementation
+2. Translate main class with City integration
+3. Add factory methods and static methods
+4. Ensure clean, intuitive API
+5. Add comprehensive docstrings
 
 ### Next Steps
 
-- STEP 3: Core Calculator Implementation
 - STEP 4: Main API Implementation
 - STEP 5: Examples and Documentation
 - STEP 6: Testing Suite
