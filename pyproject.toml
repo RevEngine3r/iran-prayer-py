@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iran-prayer-times"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python library for calculating Islamic prayer times for major cities in Iran"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -31,6 +31,11 @@ classifiers = [
     "Topic :: Religion",
     "Topic :: Scientific/Engineering :: Astronomy",
     "Typing :: Typed",
+]
+
+# Add tzdata for Windows timezone support
+dependencies = [
+    "tzdata>=2023.3; platform_system=='Windows'",
 ]
 
 [project.urls]
